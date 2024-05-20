@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox xmlns:fx="http://javafx.com/fxml" fx:controller="application.AdminHomeController" spacing="10">
+   <Label fx:id="welcomeLabel" layoutX="20" layoutY="20"/>
+    <HBox spacing="10">
+        <Button fx:id="navigateButton1" text="your activities " onAction="#navigateToOtherFXML" />
+        <Button fx:id="navigateButton2" text="your activities list 2" onAction="#navigateToOtherFXMLlist" />
+        <Button fx:id="navigateButton3" text="Add teacher" onAction="#navigateToAddEnseignant" />
+        <Button fx:id="navigateButton4" text="list teacher" onAction="#navigateToDisplayEns" />
+    </HBox>
+</VBox>
